@@ -21,20 +21,41 @@ h2
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
+:root
+{
+    --primary-color:red;
+}
 body
 {
     font-family:'montserrat', 'sans-serif';
 }
 
 /* container */
-
+/* .(dot) it is use for class and # used for ID */
 .container {
     padding-left: 1rem;
     padding-right: 1rem;
+    
 }
 
 .container-center
 {
    max-width: 600px;
    margin: auto;
+}
+
+/* links */
+/* links has two things primary and secondary links: so we need to define a color!
+primary color for our website!
+*/
+
+.link 
+{
+    text-decoration: none;
+    padding-top: 1rem;
+    padding-right: 1rem;
+}
+.primary-link
+{
+    color: var(--primary-color);
 }
