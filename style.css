@@ -37,6 +37,11 @@ hr {
     margin: 2rem 0rem;
 }
 
+/* spaces */
+.margin-md
+{
+    margin:2rem;
+}
 /* container */
 /* .(dot) it is use for class and # used for ID */
 .container {
@@ -115,6 +120,7 @@ primary color for our website!
 .hero {
     padding: 2rem;
     text-align: center;
+    padding-top:5rem;
 }
 
 .hero .hero-img {
