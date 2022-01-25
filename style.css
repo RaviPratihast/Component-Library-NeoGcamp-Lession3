@@ -52,8 +52,7 @@ primary color for our website!
 .link 
 {
     text-decoration: none;
-    padding-top: 1rem;
-    padding-right: 1rem;
+    padding: 0.5rem 1rem;
 }
 .primary-link
 {
