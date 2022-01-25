@@ -21,33 +21,33 @@ h2
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
- :root
-{
-    --primary-color:#7C3AED;
-    --dark-gray:#6b7280;
-}
-body
-{
-    font-family:'montserrat', 'sans-serif';
+:root {
+    --primary-color: #7C3AED;
+    --dark-gray: #6b7280;
+    --off-white:#f1f5f9;
+
 }
 
-hr
-{
-    margin:2rem 0rem;
+body {
+    font-family: 'montserrat', 'sans-serif';
 }
+
+hr {
+    margin: 2rem 0rem;
+}
+
 /* container */
 /* .(dot) it is use for class and # used for ID */
 .container {
     /* padding-left: 1rem;
     padding-right: 1rem; */
     padding: 0rem 1rem;
-    
+
 }
 
-.container-center
-{
-   max-width: 600px;
-   margin: auto;
+.container-center {
+    max-width: 600px;
+    margin: auto;
 }
 
 /* links */
@@ -55,83 +55,91 @@ hr
 primary color for our website!
 */
 
-.link
-{
-    text-decoration: none; 
+.link {
+    text-decoration: none;
     padding: 0.5rem 1rem;
 }
 
-.link-primary
-{
-    
-      background-color: var(--primary-color);
-      border-radius: 0.5rem;
-      color:white;
+.link-primary {
+
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
 }
 
-.link-secondary
-{
+.link-secondary {
     color: var (--primary-color);
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
 }
 
 /* lists */
-.list-non-bullet
-{
-    list-style:none;
+.list-non-bullet {
+    list-style: none;
 }
 
-.list-item-inline
-{
+.list-item-inline {
     display: inline;
-    padding:0rem 0.5rem;
+    padding: 0rem 0.5rem;
 }
+
 /* nevigation */
-.nevigation
-{
+.nevigation {
     background-color: var(--primary-color);
-    color:white;
-    padding:1rem;
+    color: white;
+    padding: 1rem;
     border-bottom-left-radius: 1rem;
 }
-.nevigation .nav-brand
-{
+
+.nevigation .nav-brand {
     font-weight: bold;
     font-size: 1.1rem;
 }
-.nevigation .nav-pills
-{
+
+.nevigation .nav-pills {
     text-align: right;
 }
-.nevigation .link
-{
-    color:white;
+
+.nevigation .link {
+    color: white;
 }
-.nevigation .link-active
-{
-    font-weight:bold;
+
+.nevigation .link-active {
+    font-weight: bold;
 }
 
 /* heading */
-.hero
-{
-    padding:2rem;
-    text-align:center;   
-}
-.hero .hero-img
-{
-    max-width:350px;
-    display:block; 
-    margin:auto;
+.hero {
+    padding: 2rem;
+    text-align: center;
 }
 
-.hero .hero-heading
-{   
-    padding-top: 1rem;
-    color:var(--dark-gray);
+.hero .hero-img {
+    max-width: 350px;
+    display: block;
+    margin: auto;
 }
-.hero .heading-inverted
-{
+
+.hero .hero-heading {
+    padding-top: 1rem;
+    color: var(--dark-gray);
+}
+
+.hero .heading-inverted {
     color: var(--primary-color);
+}
+
+/* section */
+.section
+{
+    padding: 2rem;
+}
+.section h1 {
+    text-align: center;
+   
+}
+
+.ow
+{
+  background-color: var(--off-white);
 }
