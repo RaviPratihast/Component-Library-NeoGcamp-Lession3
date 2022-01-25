@@ -30,6 +30,10 @@ body
     font-family:'montserrat', 'sans-serif';
 }
 
+hr
+{
+    margin:2rem 0rem;
+}
 /* container */
 /* .(dot) it is use for class and # used for ID */
 .container {
