@@ -57,15 +57,17 @@ primary color for our website!
 */
 
 .link {
+    /* box-sizing: border-box; */
     text-decoration: none;
     padding: 0.5rem 1rem;
 }
 
-.link-primary {
+.link-primary
+{
 
     background-color: var(--primary-color);
     border-radius: 0.5rem;
-    color: white;
+    color:white;
 }
 
 .link-secondary {
@@ -159,6 +161,11 @@ primary color for our website!
 .footer .link
 {
     color:white;
+}
+.footer .footer-header
+{
+    font-weight:bold;
+    font-size: large;
 }
 .footer ul
 {
