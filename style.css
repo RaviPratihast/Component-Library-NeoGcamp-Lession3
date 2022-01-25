@@ -21,9 +21,9 @@ h2
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
-:root
+ :root
 {
-    --primary-color:red;
+    --primary-color:#7C3AED;
 }
 body
 {
@@ -33,8 +33,9 @@ body
 /* container */
 /* .(dot) it is use for class and # used for ID */
 .container {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    /* padding-left: 1rem;
+    padding-right: 1rem; */
+    padding: 0rem 1rem;
     
 }
 
@@ -49,12 +50,23 @@ body
 primary color for our website!
 */
 
-.link 
+.link
 {
-    text-decoration: none;
+    text-decoration: none; 
     padding: 0.5rem 1rem;
 }
-.primary-link
+
+.link-primary
 {
-    color: var(--primary-color);
+    
+      background-color: var(--primary-color);
+      border-radius: 0.5rem;
+      color:white;
+}
+
+.link-secondary
+{
+    color: var (--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
 }
