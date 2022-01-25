@@ -86,3 +86,28 @@ primary color for our website!
     display: inline;
     padding:0rem 0.5rem;
 }
+/* nevigation */
+.nevigation
+{
+    background-color: var(--primary-color);
+    color:white;
+    padding:1rem;
+    border-bottom-left-radius: 1rem;
+}
+.nevigation .nav-brand
+{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.nevigation .nav-pills
+{
+    text-align: right;
+}
+.nevigation .link
+{
+    color:white;
+}
+.nevigation .link-active
+{
+    font-weight:bold;
+}
